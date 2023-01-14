@@ -1,0 +1,131 @@
+/* COMMON STYLE*/
+body{
+  margin: 0;
+  color: #d9dbf2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 3px;
+  font-size: 1.5rem;
+}
+
+/* Navigation bar */
+li.nav-item {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+.navbar-nav a {
+  color: #fff;
+}
+.navbar-nav a:hover{
+    border-bottom: 3px solid ;
+    color: #fff;
+}
+nav li{
+    background: rgba(55, 80, 138, 0.3);
+}
+
+/* CONTENT */
+
+#content h1{
+    font-size: 6rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dot {
+    height: 18rem;
+    width: 18rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  
+}
+.dot p{
+  line-height: 18rem;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.backgr{
+  background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+
+
+/* PC ONLY */
+@media  screen and (min-width: 1024px) {
+  .nav-bar{
+    padding: 5% 15% 0%;
+  }
+
+  #content.img{
+    padding-top: 3rem;
+  }
+
+  #content{
+    padding: 20% 15% 0%;
+  }
+
+}
+
+
+/* Mobile: width <740px */
+@media screen and (max-width: 740px){
+  .backgr{
+    background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    }
+
+    *{
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .nav-bar{
+      padding: 5% 0% 0% 7%;
+    }
+    #content{
+      padding: 20% 5% 0%;
+    }
+    div.col-lg-6.text-center.img{
+      padding-top: 15%;
+    }
+
+}
+
+/* Tablet: 740px=<width<1024px */
+@media screen and (min-width: 740px) and (max-width: 1024px){
+  .backgr{
+    background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+  }
+
+  *{
+    text-align: center;
+  }
+
+  .nav-bar{
+    padding: 5% 0% 0% 7%;
+  }
+  #content{
+    padding: 25% 20% 0%;
+  }
+  div.col-lg-6.text-center.img{
+    padding-top: 25%;
+  }
+}
