@@ -24,14 +24,14 @@ nav li{
 }
 
 /* CONTENT */
-
+/* HEADING-TITLE */
 #content h1{
     font-size: 6rem;
     font-weight: 500;
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* WHITE CIRCLE WITH "EXPLORE" INSIDE */
 .dot {
     height: 18rem;
     width: 18rem;
@@ -49,7 +49,7 @@ nav li{
 }
 
 
-.backgr{
+.backgr-home{
   background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,12 +61,13 @@ nav li{
 
 /* PC ONLY */
 @media  screen and (min-width: 1024px) {
+  /* HOMEPAGE */
   .nav-bar{
     padding: 5% 15% 0%;
   }
 
-  #content.img{
-    padding-top: 3rem;
+  div.col-lg-6.text-center.img{
+    padding-top: 2.5%;
   }
 
   #content{
@@ -78,7 +79,8 @@ nav li{
 
 /* Mobile: width <740px */
 @media screen and (max-width: 740px){
-  .backgr{
+  /* HOMEPAGE */
+  .backgr-home{
     background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,16 +89,12 @@ nav li{
     background-position: center;
     }
 
-    *{
-      text-align: center;
-      font-size: 1rem;
-    }
-
     .nav-bar{
       padding: 5% 0% 0% 7%;
     }
     #content{
       padding: 20% 5% 0%;
+      text-align: center;
     }
     div.col-lg-6.text-center.img{
       padding-top: 15%;
@@ -106,7 +104,8 @@ nav li{
 
 /* Tablet: 740px=<width<1024px */
 @media screen and (min-width: 740px) and (max-width: 1024px){
-  .backgr{
+  /* HOMEPAGE */
+  .backgr-home{
     background-image: url(/space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,17 +114,17 @@ nav li{
     background-position: center;
   }
 
-  *{
-    text-align: center;
-  }
-
   .nav-bar{
     padding: 5% 0% 0% 7%;
   }
   #content{
     padding: 25% 20% 0%;
+    text-align: center;
   }
   div.col-lg-6.text-center.img{
     padding-top: 25%;
   }
 }
+
+
+

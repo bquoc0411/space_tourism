@@ -1,0 +1,131 @@
+
+body{
+    margin: 0;
+    color: #d9dbf2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.backgr-destination{
+    background-image: url(/space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+/* Navigation bar */
+
+.navbar-nav a {
+  color: #fff;
+}
+.navbar-nav a:hover{
+    border-bottom: 3px solid ;
+    color: #fff;
+}
+nav li{
+    background: rgba(11, 14, 23, 0.3);
+}
+
+/* CONTENT */
+/* HEADING-TITLE */
+.nav{
+    --bs-nav-link-color: #fff;
+    --bs-nav-link-hover-color: #d9dbf2;
+}
+.nav a:hover{
+    border-bottom: #fff solid;
+}
+#content h1{
+    font-size: 6rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.destination-em{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* PC ONLY */
+@media  screen and (min-width: 1024px) {
+    /* HOMEPAGE */
+    .nav-bar{
+      padding: 5% 15% 0%;
+    }
+    li.nav-item {
+        padding: 0 2rem;
+    }
+    img{
+      padding-top: 5%;
+    } 
+  
+    #content{
+      padding: 15% 15% 0%;
+    }
+  
+  }
+  
+  
+  /* Mobile: width <740px */
+@media screen and (max-width: 740px){
+    /* HOMEPAGE */
+    .backgr-home{
+    background-image: url(/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    }
+    *{
+        font-size: 1rem;
+    }
+    
+    img{
+        width: 170px;
+        height: 170px;
+    }
+    #content h1{
+        font-size: 4rem;
+    }
+    .nav-bar{
+    padding: 5% 0% 0% 7%;
+    }
+
+    #content{
+        padding: 20% 5% 0%;
+        text-align: center;
+    }
+  
+  }
+  
+  /* Tablet: 740px=<width<1024px */
+  @media screen and (min-width: 740px) and (max-width: 1024px){
+    /* HOMEPAGE */
+    .backgr-home{
+      background-image: url(/space-tourism-website-main/starter-code/assets/destination/background-destination-tablet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+  
+    .nav-bar{
+      padding: 5% 0% 0% 7%;
+    }
+    #content{
+      padding: 20% 20% 0%;
+      text-align: center;
+    }
+    
+  }
+  
