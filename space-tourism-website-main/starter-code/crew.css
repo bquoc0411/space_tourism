@@ -1,0 +1,166 @@
+/* COMMON STYLE */
+
+body{
+  margin: 0;
+  color: #d9dbf2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-spacing: 3px;
+  font-size: 1.5rem;
+}
+
+
+.navbar-nav a {
+  color: #fff;
+}
+.navbar-nav a:hover{
+    border-bottom: 3px solid ;
+    color: #fff;
+}
+nav li{
+  background: rgba(11, 14, 23, 0.3);
+}
+
+
+
+#content h3{
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  padding: 1% 0% 2%;
+}
+#content h4{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 100;
+}
+#content h4.first-p{
+  color: #fff;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: gray;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0% 2%;
+}
+.dot:link{
+
+}
+.dot:hover, .dot:active, .dot:visited{
+	background-color: #fff;
+}
+
+
+
+
+.backgr-crew{
+    background-image: url(/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+/* PC ONLY */
+@media  screen and (min-width: 1024px) {
+    /* HOMEPAGE */
+    .nav-bar{
+      padding: 1% 0% 0% 3%;
+    }
+     * li.nav-item {
+        padding: 0 2rem;
+    }
+
+    img{
+      padding-left: 20%;
+    }  
+    #content{
+      padding: 12% 8% 0%;
+    }
+    .first-p{
+      padding-bottom: 10%;
+    }
+    .fourth-p{
+      padding: 0% 25% 10% 0%;
+    } 
+  }
+  
+  
+  /* Mobile: width <740px */
+@media screen and (max-width: 740px){
+    /* HOMEPAGE */
+    .backgr-home{
+    background-image: url(/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    font-size: 1rem;
+    }
+    
+    img{
+        width: 177px;
+        height: 222px;
+    }
+    #content h1{
+        font-size: 4rem;
+    }
+    .nav-bar{
+    padding: 5% 0% 0% 7%;
+    }
+
+    #content{
+        padding: 20% 5% 0%;
+        text-align: center;
+    }
+    #content h3 {
+      font-size: 2.5rem;
+    }
+    #content h4{
+      font-size: 1.5rem; 
+    }
+
+    
+}
+
+  
+  /* Tablet: 740px=<width<1024px */
+  @media screen and (min-width: 740px) and (max-width: 1024px){
+    
+     .backgr-home{
+      background-image: url(/space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      font-size: 1rem;
+     }
+
+    img{
+        width: 450px;
+        height: 570px;
+    }
+  
+    .nav-bar{
+      padding: 0% 0% 0% 7%;
+    }
+    #content{
+      padding: 15% 15% 0%;
+      text-align: center;
+    }
+    #content h3 {
+    font-size: 2.5rem;
+    }
+    #content h4{
+      font-size: 1.5rem; 
+    }
+  }
