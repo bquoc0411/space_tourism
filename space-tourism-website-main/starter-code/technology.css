@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    color: #d9dbf2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+.backgr-tech{
+    background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+.navbar-nav a:hover{
+    border-bottom: 3px solid ;
+    color: #fff;
+}
+nav li{
+    background: rgba(11, 14, 23, 0.3);
+}
+
+/* 1 2 3 circle */
+.dot {
+    height: 5rem;
+    width: 5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle{
+    margin-bottom: 50px;
+}
+.dot p{
+  line-height: 5rem;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#content h3{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 1% 0% 2%;
+}
+
+#content h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 100;
+}
+.upper{
+    text-transform: uppercase;
+}
+
+/* PC ONLY */
+@media  screen and (min-width: 1024px) {
+    .nav-bar{
+      padding: 1% 0% 0% 3%;
+    }
+     * li.nav-item {
+        padding: 0 2rem;
+    }
+    
+    #content{
+        padding: 12% 8% 0%;
+    }
+    h4{
+        padding-bottom: 5%;
+    }
+}
+
+ /* Mobile: width <740px */
+@media screen and (max-width: 740px){
+    .backgr-tech{
+    background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    }
+}
+
+/* Tablet: 740px=<width<1024px */
+@media screen and (min-width: 740px) and (max-width: 1024px){
+    .backgr-tech{
+     background-image: url(/space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+     width: 100%;
+     background-position: center;
+    }
+}
+
+
+

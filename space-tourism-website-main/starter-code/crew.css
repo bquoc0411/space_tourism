@@ -49,15 +49,10 @@ nav li{
   display: inline-block;
   margin: 0% 2%;
 }
-.dot:link{
 
-}
 .dot:hover, .dot:active, .dot:visited{
 	background-color: #fff;
 }
-
-
-
 
 .backgr-crew{
     background-image: url(/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
@@ -160,6 +155,7 @@ nav li{
     #content h3 {
     font-size: 2.5rem;
     }
+
     #content h4{
       font-size: 1.5rem; 
     }
